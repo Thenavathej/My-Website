@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  .hero {
+    text-align: center;
+    animation: slideInTop 1s ease-out;
+  }
+  .hero img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+  }
+  .hero img:hover {
+    transform: scale(1.05);
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: #222;
+  }
+
+  .section {
+    margin-top: 2.5rem;
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+  }
+
+  .section:nth-child(2) { animation-delay: 0.2s; }
+  .section:nth-child(3) { animation-delay: 0.4s; }
+  .section:nth-child(4) { animation-delay: 0.6s; }
+  .section:nth-child(5) { animation-delay: 0.8s; }
+
+  .skills span {
+    background: #e0e0e0;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    display: inline-block;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background 0.3s;
+    cursor: default;
+  }
+  .skills span:hover {
+    transform: scale(1.1);
+    background: #cce5ff;
+  }
+
+  .contact a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  .contact a:hover {
+    background-color: #0056b3;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+  }
+
+  @keyframes slideInTop {
+    0% {
+      transform: translateY(-30px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(40px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

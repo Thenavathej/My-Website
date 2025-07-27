@@ -1,0 +1,148 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+}
+
+body{
+    background-image:linear-gradient(to left, rgb(44, 192, 242), rgb(245, 115, 137));
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:100%;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:40px;
+}
+
+.navbar{
+    background-color:rgb(65, 65, 65);
+    position:sticky;
+    top:40px;
+    margin-bottom:40px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width:auto;
+    margin:15px;
+    opacity:0.8;
+    overflow:hidden;
+    padding:0.20px;
+    border-radius:15px;
+}
+
+.navbar ul{
+    list-style-type:none;
+    gap:10px;
+    display:flex;
+}
+
+.ul-links a, .ul-btns a{
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    font-weight:500;
+    font-size:18px;
+    padding:15px;
+    position:relative;
+    border-radius:12px;
+    transition:0.3s color, background-color;
+}
+
+.navbar li{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navbar button{
+    background-color:rgb(65, 65, 60);
+    color:white;
+    height:2em;
+    width:7em;
+    border-radius:12px;
+    transition:0.3s color, background-color;
+    opacity:0.8;
+}
+
+.navbar a:hover{
+    background-color:rgb(65, 65, 60);
+}
+
+.contacts{
+    background-color: rgb(65, 65, 65);
+    color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    margin: 20px auto; 
+    width: fit-content;
+    display:none;
+}
+
+.contacts h2 {
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contacts ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts a{
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    font-weight:500;
+    font-size:18px;
+    padding:10px;
+    position:relative;
+    border-radius:12px;
+    transition:0.3s color, background-color;
+    display: inline-block;
+}
+
+.contacts a:hover{
+    background-color:rgb(65, 65, 60);
+}
+
+.contacts a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:8px;
+    height:3px;
+    width:0%;
+    background-color:rgb(44, 192, 242);
+    border-radius:3px;
+    transition:0.3s width;
+}
+
+.contacts a:hover::after{
+    width:100%;
+}
+
+.navbar a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:8px;
+    height:3px;
+    width:0%;
+    background-color:rgb(44, 192, 242);
+    border-radius:3px;
+    transition:0.3s width;
+}
+
+.navbar a:hover::after{
+    width:100%;
+}
+

@@ -1,0 +1,114 @@
+body{
+    background-image:linear-gradient(45deg , rgb(250, 84, 112) , rgb(156, 78, 78) , rgb(250, 84, 112) );
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+*{
+    padding:0;
+    margin:0;
+    display:inline-block;
+}
+
+.image img{
+    height:700px;
+    width:700px;
+}
+
+
+#img2{
+    display:none;
+}
+
+#img3{
+    display:none;
+}
+
+#img4{
+    display:none;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    display:block;
+    top:0;
+    left:50%;
+    transform:translate(-50%);
+    position:absolute;
+}
+
+h3{
+    display:inline-block;
+}
+
+.con button{
+    font-weight:bold;
+    color:rgb(255, 196, 0);
+    background-color:transparent;
+    border:solid 0 transparent;
+    font-size:1.4em;
+}
+
+#btndis2{
+    float:right;
+    margin-bottom:15px;
+}
+
+.p{
+    letter-spacing:2px;
+}
+
+#des2{
+    display:none;
+}
+
+.des{
+    background-color:white;
+    border-radius: 100px;
+    text-align:center;
+    width:fit-content;
+}
+
+h3{
+    display:inline-block;
+    margin-bottom:20px;
+}
+
+.color button{
+    height:50px;
+    width:50px;
+    display:inline-block;
+    color:white;
+    background-color: white;
+    margin-right:10px;
+    border-radius:10px;
+    border:solid 3px black;
+}
+
+#btnc1{
+    background-color:rgb(185, 68, 94);
+}
+
+#btnc2{
+    background-color:rgb(66, 148, 202);
+}
+
+#btnc3{
+    background-color:rgb(81, 137, 69);
+}
+
+#btnc4{
+    background-color:rgb(161, 45, 161);
+}
+
+#cart{
+    background-color:rgb(255, 196, 0, 0.71);
+    background-image:linear-gradient(top,rgb(255, 196, 0, 0.71),rgb(255, 196, 0, 0.893));
+    border-radius:10px;
+    margin:0 auto;
+   color:white;
+}

@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+  
+.hero {
+    background-color: #f8f9fa;
+    background-image: linear-gradient(to right, #e0f7fa, #ffffff);
+}
+  
+h1, h2 {
+    color: #333;
+}
+  
+  footer {
+    background-color: #222;
+}
+  
+.navbar-brand img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.special-offers {
+    padding: 20px;
+    background-color: #fffaf2;
+    text-align: center;
+    gap:40px;
+  }
+  
+  .special-offers h2 {
+    color: #d40000;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .special-offers img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .special-offers img:hover {
+    transform: scale(1.05);
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #d40000;
+    top: 35%;
+  }
+  

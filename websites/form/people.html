@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Saved People</title>
+</head>
+<body>
+  <h1>Saved People</h1>
+  <div id="peopleList"></div>
+
+  <script>
+    const peopleListDiv = document.getElementById("peopleList");
+
+    // Get people from localStorage
+    const persons = JSON.parse(localStorage.getItem("persons")) || [];
+
+    if (persons.length === 0) {
+      peopleListDiv.innerHTML = "<p>No data found.</p>";
+    } else {
+      persons.forEach((person, index) => {
+        const div = document.createElement("div");
+        div.innerHTML = `
+          <h3>Person ${index + 1}</h3>
+          <p><strong>Name:</strong> ${person.name}</p>
+          <p><strong>Last Name:</strong> ${person.lastName}</p>
+          <p><strong>Age:</strong> ${person.age}</p>
+          <p><strong>Phone:</strong> ${person.phone}</p>
+          <p><strong>Email:</strong> ${person.email}</p>
+          <hr>
+        `;
+        peopleListDiv.appendChild(div);
+      });
+    }
+  </script>
+</body>
+</html>

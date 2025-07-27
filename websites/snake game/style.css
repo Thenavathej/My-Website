@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #111;
+    color: white;
+    margin-top: 30px;
+}
+  
+canvas {
+    background-color: #222;
+    border: 2px solid #555;
+}
+  
+
+img{
+    height:30px;
+    width:30px;
+}

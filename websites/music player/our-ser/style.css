@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: hsla(236, 100%, 8%, 1);
+    background: linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(236, 100%, 8%, 1) 0%, hsla(211, 100%, 28%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#000328", endColorstr="#00458E", GradientType=1 );
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    min-height:100vh;
+}
+
+img{
+    height:50px;
+    width:50px;
+}
+
+h1{
+    text-align:center;
+    color:white;
+    margin:10px;
+}
+
+#mainCon{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
+    gap:20px;
+    place-items:center;
+}
+
+.box{
+    background-color:white;
+    border-radius:4px;
+    box-shadow:2px 2px 8px black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    gap:12px;
+    padding:12px;
+}
+
+button{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:#0C0404;
+    transition:all ease-in-out;
+    border-radius:3px;
+    color:whitesmoke;
+    padding:16px;
+    height:2em;
+    width:5em;
+}
+
+button:hover{
+    background:#494F55;
+}
+
+#read {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Optional: full-screen modal style */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2rem;
+    z-index: 999;
+}
+
+#read h1{
+    color:black;
+}
+
+.btns{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+}

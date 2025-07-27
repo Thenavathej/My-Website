@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.D Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>C.D Calculater</h1>
+        <div class="select">
+            <button>C.D</button>
+            <button>P.D</button>
+            <button>T.D</button>
+        </div>
+        <div id="CD_CAL">
+            <div class="btns_cd">
+                <button id="basicBtn">Basic</button>
+                <button id="advanceBtn">Advance</button>                
+            </div>
+            <!---------------------------------C.D_Calc_basic-------------------------------------------------->
+            <div id="CD_Basic">
+                <h1>CD basic</h1>
+                <div class="in_lab_con">
+                <label for="firstNumIN">1st Number:</label>
+                <input id="firstNumIn" type="number" placeholder="1st Number:">
+                </div>
+
+                <div class="in_lab_con">
+                <label for="secondNumIN">2nd Number:</label>
+                <input id="secondNumIn" type="number" placeholder="2nd Number:">
+                </div>
+                <button id="CD_basic_Cal">Submit</button>
+            </div>
+            <!---------------------------------C.D_Calc_Advance----------------------------------------------->
+            <div id="CD_Advance">
+                <h1>CD Advance</h1>
+                <div class="in_lab_con">
+                <label for="1stTerm">1st Term:</label>
+                <input id="1stTerm" type="number" placeholder="1st Term:">
+                </div>
+                <div class="in_lab_con">
+                <label for="2ndTerm">2nd Term:</label>
+                <input id="2ndTerm" type="number" placeholder="2nd Term:">
+                </div>
+                <button id="CD_Advance_Cal">Submit</button>
+            </div>
+        </div>
+        <!------------------------------------T.D_Calc--------------------------------------------------------->
+        <div id="TD_CAL_Con">
+            <div id="TD_basic">
+                <h1>TD Calc</h1>
+                <div class="in_lab_con">
+                <label for="TD_CD_IN">C.D Enter:</label>
+                <input id="TD_CD_In" type="number" placeholder="C.D Enter:">
+                </div>
+                <div class="in_lab_con">
+                <label for="TD_PD_IN">P.D Enter:</label>
+                <input id="TD_PD_In" type="number" placeholder="P.D Enter:">
+                </div>
+                <button id="TD_Cal">Submit</button>
+            </div>
+        </div>
+        <!------------------------------------P.D_Calc--------------------------------------------------------->
+        <div id="PD_CAL_Con">
+            <div id="PD_basic">
+                <h1>PD Calc</h1>
+                <div class="in_lab_con">
+                <label for="PD_CD_IN">C.D Enter:</label>
+                <input id="PD_CD_In" type="number" placeholder="C.D Enter:">
+                </div>
+                <div class="in_lab_con">
+                <label for="PD_TD_IN">T.D Enter:</label>
+                <input id="PD_TD_In" type="number" placeholder="P.D Enter:">
+                </div>
+                <button id="PD_Cal">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TV Selection</title>
+<style></style>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="basic-center">
+    <nav class="navbar">
+        <ul>
+            <li><a href="file:///C:/Users/Administrator/Desktop/maincodefolder/orion_service/index.html">home</a></li>
+            <li><a href="file:///C:/Users/Administrator/Desktop/maincodefolder/orion_service/items.html">items</a></li>
+            <li><a href="file:///C:/Users/Administrator/Desktop/maincodefolder/orion_service/about.html">about</a></li>
+            <li><a href="">social meadia</a></li>
+        </ul>
+    </nav>
+    </div>
+    
+  <div class="basic-center">
+<div class="items">
+  <label for="items">Items</label>
+  <select required id="items">
+    <option></option>
+    <option>TV</option>
+    <option>FAN</option>
+    <option>WATCH</option>
+  </select>
+</div>
+<br>
+<div class="TV">
+  <label for="tvSelect">TV</label>
+  <select required id="tvSelect">  
+    <option></option>
+    <option>LED TV</option>
+    <option>SMART TV</option>
+    <option>BOX TV</option>
+    <option>QLED</option>
+    <option>REALME 100in AMOLED NASA TV</option>
+  </select>
+</div>
+</div>
+
+<script src="items.js">
+  const itemsSelect = document.getElementById('items');
+  const tvSelect = document.getElementById('tvSelect');   // Use the unique ID
+
+  itemsSelect.addEventListener('change', function() {  // Use 'change' event
+    if (this.value = 'TV') {
+      tvSelect.style.display = 'block';   // Use 'block' for visibility
+    } else {
+      tvSelect.style.display = 'none';
+    }
+  });
+
+  console.log(`hello world`);
+</script>
+</body>

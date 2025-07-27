@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="line">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required min="4" placeholder="Name:">
+            </div>
+            <div class="line">
+                <label for="lastName">Last name:</label>
+                <input type="text" id="lastName" required placeholder="Last name:">
+            </div>
+            <div class="line">
+                <label for="age">Age:</label>
+                <input type="number" id="age" required min="10" placeholder="Age:">
+            </div>
+            <div class="line">
+                <label for="phone">Phone number:</label>
+                <input type="number" id="phone" required minlength="9" maxlength="9" placeholder="Phone Number:">
+            </div>
+            <div class="line">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required placeholder="Email:">
+            </div>
+            <div class="line">
+                <button type="submit" id="submitBtn">Submit</button>
+            </div>
+            <div class="line">
+                <a href="people.html">View Saved People</a>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

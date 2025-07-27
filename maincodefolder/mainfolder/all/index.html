@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXP8</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/anjarakandy.jpg">
+</head>
+
+<body>
+
+    <h1>this is the 8th exp webpage</h1>
+    
+    <div class="basic-center">
+    <img src="images/anjarakandy.jpg" id="logo1">
+</div>
+
+    <div class="items">
+        <LABEL for="itemSelect">items</LABEL>
+        <select id="itemSelect">
+            <option></option>
+            <option>TV</option>
+            <option>PHONE</option>
+            <option>WATCH</option>
+        </select>
+    </div>
+
+    <div class="tv">
+        <Label for="TV">TV</Label>
+        <select id-="TV">
+            <option>abcTV</Option>
+            <option>abcTV</Option>
+            <option>abcTV</Option>
+        </select>
+    </div>
+
+    <div class="box"></div>
+
+    <h1 id="myh3">welcome</h1>
+    <label for="mytext">username</label>
+    <input type="text" id="mytext" style="accent-color:red; "><br><br>
+    <button id="mysubmit">submit</button>
+    <script src="index.js">
+    let username;
+        const myh3 = document.getElementById("myh3");
+        const mytext = document.getElementById("mytext");
+        const mysubmit = document.getElementById("mysubmit");
+        
+        mysubmit.onclick = function(){
+            username = mytext.value;
+            mytext.textContent = `hello ${username}`;
+        }
+        </script>
+</body>
+
+</html>

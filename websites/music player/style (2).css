@@ -1,0 +1,77 @@
+body{
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background-position: center;
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+img{
+    height:50px;
+    width:50px;
+    border-radius:4px;
+    border:solid 2px white;
+}
+
+.container{
+    background: #6190E8;
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);
+    background: linear-gradient(to right, #A7BFE8, #6190E8);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    border-radius:15px;
+    padding:15px;
+    gap:14px;
+}
+
+.music-con{
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    padding:8px;
+    border-radius: 15px;
+    margin:18px;
+}
+
+.controll{
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+    padding:15px;
+}
+
+.controll button{
+    height:2em;
+    width:5em;
+    border-radius:25px;
+    font-size:18px;
+    font-weight:500;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button icon{
+    font-size:18px;
+    font-weight:500;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}

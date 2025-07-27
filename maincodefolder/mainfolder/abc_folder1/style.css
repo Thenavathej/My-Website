@@ -1,0 +1,12 @@
+body{
+    background-image:url(images/images.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.basic-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

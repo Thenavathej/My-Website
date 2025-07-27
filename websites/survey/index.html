@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>survey</h1>
+    <div class="container">
+    <p>Let know how we can improve our survice</p>
+    <form>
+        <div class="mar">
+        <label for="name">*Name:</label><input type="text" min="3" max="20" placeholder="Enter Name" id="name" required><br><br>
+        </div>
+        <div class="mar">
+        <label for="email">*Email:</label><input type="email" placeholder="Enter Email" id="email" required><br><br>
+        </div>
+        <div class="mar">
+        <label for="age">*Age:</label><input type="number" min="10" placeholder="Enter Age" id="age" required><br><br>
+        </div>
+        <div class="mar">
+        <label for="phone">*Phone:</label><input type="text" min="3" max="20" placeholder="Enter Phone number" id="phone" required><br><br>
+        </div>
+
+        <div class="mar">
+        <label for="option">*Have you played before</label>
+        <select id="option" placeholder="Select an option" required>
+            <option>First time</option>
+            <option>Never played before</option>
+        </select>
+        </div>
+        <br><br>
+
+        <div class="mar">
+        <label>*Which game have you played before</label>
+        <input type="radio" placeholder="Amongus"><br>
+        <input type="radio" placeholder="Minecraft"><br>
+        <input type="radio" placeholder="Asphalt"><br>
+        </div>
+
+        <div class="mar">
+        <label for="option1">*will you recomend this game to someone?</label>
+        <select id="option1">
+        <option>Yes</option>
+        <option>May be</option>
+        <option>no</option>
+        </select>
+        <br><br>
+        </div>
+    <h3>Any comment?</h3>
+
+    <br><br>
+    <div class="mar">
+    <input type="text, number" placeholder="comment....?" id="overflow">
+    <br><br>
+    </div>
+    
+    </form >
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

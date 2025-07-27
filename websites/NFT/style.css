@@ -1,0 +1,267 @@
+*{
+    padding:0;
+    margin:0;
+    color:white;
+}
+
+body{
+    background-image:linear-gradient(90deg, #03001e 0%, #7303c0 33%, #ec38bc 66%, #fdeff9 100%);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+img{
+    height:200px;
+    width:200px;
+}
+
+button{
+    height:2em;
+    width:5em;
+    border-radius:12px;
+    border:solid 2px white;
+}
+
+#transparent{
+    background-color:transparent;
+}
+
+#gradient{
+    background-image:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+}
+
+.navbar{
+    background-color:transparent;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin:20px;
+}
+
+.ul-h2 #a1{
+    background-image:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+    -webkit-background-clip:text;
+    background-clip: text;
+    color:transparent;
+}
+
+.ul-h2 h1{
+    background-image:linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+    -webkit-background-clip:text;
+    background-clip: text;
+    color:transparent;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0.40;
+    gap:12px;
+}
+
+.navbar a{
+    text-decoration:none;
+    text-align:center;
+    border-radius:6px;
+}
+
+.navbar button{
+    height:2em;
+    width:5em;
+    border-radius:14px;
+    outline:white;
+}
+
+.con2{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:6px
+}
+
+.sec1 h1{
+    font-size:4em;
+    margin:18px;
+}
+
+.sec1 button{
+    height:2em;
+    width:5em;
+    border-radius:14px;
+    margin:18px;
+    outline:white;
+}
+
+.sec2{
+    background-image:linear-gradient(90deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    border-radius:16px;
+    padding:12px;
+}
+
+.sec2 img{
+    border-radius:10px;
+}
+
+#user{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    border:solid 2px white;
+    margin-top:8px;
+}
+
+.text{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.img0-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:12px;
+}
+
+.img0-container img{
+    height:250px;
+    width:250px;
+    margin:12px;
+}
+
+.img-con0{
+    background-image:linear-gradient(90deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    border-radius:16px;
+    padding:12px;
+}
+
+.img-con00{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.the-line{
+    height: 1px;
+    width:100%;
+    border-radius:1px;
+    margin:4px;
+    background-color:white;
+}
+
+.view-all{
+    height:2em;
+    width:5em;
+    border-radius:12px;
+    margin:10px;
+}
+
+.con4 h1, h5{
+    text-align:center;
+    margin:10px
+}
+
+.icon-con1 i{
+    font-size:25px;
+    text-align:center;
+    padding:15px;
+}
+
+.icon-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    padding:15px;
+}
+
+.icon-con1{
+    background-image:linear-gradient(90deg,  #3f2b96 100%, #a8c0ff 0%,);
+    border:solid 1px white;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.con5{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-direction:row;
+}
+
+.ul-cat{
+    list-style-type:none;
+    padding:15px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border:3px black;
+}
+
+#img0-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    gap:2em;
+}
+
+#img0-container button{
+    margin:15px;
+    border-radius:8px;
+    color:black;
+    font-size:18px;
+    font-weight:500;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:2em;
+    width:5em;
+}
+
+footer{
+    background-color:rgb(78, 77, 77);
+}
+
+#footer1{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:150px;
+}
+
+.con7{
+    background-color:rgb(78, 77, 77);
+}
+
+.footersec2{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.footersec2 ul{
+    list-style: none;
+    background-color: transparent;
+}
+
+#right{
+    float:right;
+}
+
+@keyframes h1{
+    0%{
+        
+    }
+
+    100%{
+
+    }
+}

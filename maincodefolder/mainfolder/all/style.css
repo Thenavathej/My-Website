@@ -1,0 +1,83 @@
+body{
+    background-image:linear-gradient(45deg red, blue);
+    background-size:cover;
+}
+.TV{
+    appearance: none;
+    display:none;
+    accent-color:red;
+
+}
+
+.basic-center{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#logo1{
+    height:50px;
+    width:50px;
+    animation-name:spin;
+    animation-duration:3s;
+    animation-iteration-count:3;
+    animation-fill-mode:forwards;
+    animation-play-state:paused;
+    animation-timing-function:ease-in-out;
+}
+
+#logo1:hover{
+    animation-play-state:running;
+    animation-fill-mode:forwards;
+}
+  
+.box{
+    height:50px;
+    width:50px;
+    border:6px solid aqua;
+    border-radius:4px;
+    box-shadow:0 0 8px aqua,0 0 8px aqua inset;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:10;
+    animation-name:loading;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+
+}
+
+@keyframes spin{
+ 
+    0%{
+
+    }
+
+    50%{
+        scale:2;
+    }
+
+    100%{
+        scale:2;
+        transform:rotate(360deg);
+        border-radius:50%;
+    }
+}
+
+@keyframes loading{
+    0%{
+        transform:rotateX() rotateY() rotateZ();
+    }
+
+    33%{
+        transform:rotateX(180deg) rotateY() rotateZ();
+    }
+    67%{
+        transform:rotateX(180deg) rotateY(180deg) rotateZ();
+    }
+    100%{
+        transform:rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+    }
+}

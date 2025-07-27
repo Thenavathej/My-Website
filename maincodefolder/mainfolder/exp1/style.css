@@ -1,0 +1,16 @@
+*{
+    background-image: url(background-img.png);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+
+}
+
+h3{
+    margin-bottom:50px
+}
+.basic-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
